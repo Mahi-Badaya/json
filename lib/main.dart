@@ -84,3 +84,7 @@ Future<List> getJson() async {
   http.Response response = await http.get(Uri.parse(apiUrl));
   return json.decode(response.body);
 }
+
+
+
+//copied this from somewhere
